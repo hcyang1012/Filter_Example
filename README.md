@@ -24,11 +24,13 @@ The 2nd-order LPF is used to address the problem of the pervious filters. In fac
 
 ## Simulation Example
 There are two simulation examples in this program.
+
 1. Static input (1000)
+
 This example shows how the initial input changes as it passes through each filter. In particular, you can see that the lst-order LPF softens the stopping point while the 2nd-order LPF smoothes the starting point.
 ![N=6 Example](https://github.com/hcyang1012/Filter_Example/raw/master/samples/N_6_SimpleInput.png)
-
 2. Random input
+
 This example shows how the motor can move smoothly without losing steps. In particular, you can see that the filters allow the motor to withstand sudden changes in input.
 ![N=6 Random Example](https://github.com/hcyang1012/Filter_Example/raw/master/samples/N_6_RandomInput.png)
 
